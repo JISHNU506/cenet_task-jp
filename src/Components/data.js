@@ -98,7 +98,7 @@ export const Product=[
         "img1hdr":"Why We're All Obsessed With the Mind-Blowing ChatGPT AI Chatbot",
         "img1cont":"This artificial intelligence bot can answer questions, write essays, summarize documents and program computers.",
         "img1maker":"BY STEPHEN SHANKLAND",
-         "image2":"images/com2.png",
+         "image2":"images/add6.png",
         "img2hdr":" Microsoft Limits Bing AI Chats to 5 Replies to Keep Conversations Normal",
         "img2cont":"Exchanges are being restricted so the Al chatbot won't get too strang",
         "img2maker":"BY DAVID LUMB",
