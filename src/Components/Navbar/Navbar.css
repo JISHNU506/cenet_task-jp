@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Notable&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Notable&family=Noto+Serif+Khojki&display=swap");
+
+body {
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+ 
+  height: auto;
+}
+.space {
+  background: #fff;
+  height: 82px;
+  width: 100%;
+}
+nav {
+  width: 100%;
+  box-shadow: none;
+transition:  all .5s ease;
+  position: relative;
+  height: 6rem;
+  border-bottom: 1.5px solid rgb(75 72 72 / 19%);
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  right: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav .logo {
+  width: 45%;
+  height: 100%;
+  position: absolute;
+ 
+  left: 0;
+  display: flex;
+  flex-direction: row;
+}
+nav .logo img {
+  height: 50%;
+  margin-left: 1rem;
+  transform: translateY(50%);
+}
+nav .nav-content {
+  width: 65%;
+  position: absolute;
+  height: 100%;
+
+  right: 0;
+  display: flex;
+
+  flex-direction: row;
+}
+nav .logo .logo-content {
+  height: 100%;
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: center;
+ 
+  align-items: center;
+}
+nav .logo .logo-content p {
+    white-space: nowrap;
+    color: #e71d1d;
+    font-size: 20px;
+    word-spacing: 3px;
+    font-family: "Domine", serif;
+    font-weight: 700;
+    margin-left: 24px;
+}
+nav .nav-content .nav-hdr {
+  width: auto;
+  height: 100%;
+  /* background: cadetblue; */
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-content a {
+  text-decoration: none;
+  margin-right: 1.2rem;
+  
+  color: #000;
+  font-weight: 400;
+  font-family: "Roboto";
+
+}
+/* .c-siteMenu li:not(:last-child) {
+    position: relative;
+} */
+nav .nav-content a:hover {
+  
+    color: #e71d1d;
+ 
+  }
+  nav .nav-content a p{
+font-size: 12px;
+
+color:red;
+margin-top: -1rem;
+position: absolute;
+font-weight: bold;
+right: 0;
+  }
+  nav .nav-content .price{
+    position: relative;
+  }
+.display-none {
+    display: none;
+}
+
+.nav-popup {
+    /* position: absolute; */
+    top: 24%;
+   
+    width: 100%;
+    height: auto;
+    color: #131212;
+    background: #ffffff;
+    border-top: 1.5px solid rgb(75 72 72 / 19%);
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+   
+   
+}
+.close{
+    color: red;
+}
+.navpop-content{
+    display: flex;
+    /* flex-direction: row; */
+    width: 50%;
+    border-bottom: 2px solid rgb(75 72 72 / 19%);
+    height:auto;
+    padding-bottom: 1.5rem;
+        justify-content: space-between;
+
+
+
+}
+.nav-popup .navpop-con{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+/* #navpop-content-two{
+    background-color: aqua;
+}
+#navpop-content-one{
+    background-color: crimson;
+} */
+.nav-popup .Coupons{
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+    /* display: flex;
+    position: relative; */
+    padding-bottom: 2.5rem;
+    width: 100%;
+  
+
+}
+.nav_header{
+    margin-right: 2rem;
+    margin-top: 0.7rem;
+}
+.nav_header h2{
+    font-family: "roboto";
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav_header h2:hover{
+    color:red;
+    text-decoration: underline;
+}
+.nav_header p{
+    font-family: "roboto";
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+       cursor: pointer;
+    /* line-height: 1rem; */
+}
+.nav_header p:hover{
+   
+    color:red;
+    text-decoration: underline;
+
+  
+}
+.Coupons h2{
+    font-family: "roboto";
+    color: #000;
+    /* margin-right: 5rem; */
+  
+    font-size: 20px;
+    margin-top: 0.7rem;
+       cursor: pointer;
+}
+.Coupons h2:hover{
+      color: red;
+    text-decoration: underline;
+}
+.Coupons p{
+    font-family: "roboto";
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    /* line-height: 1rem; */
+    width: auto;
+    cursor: pointer;
+}
+.Coupons p:hover{
+
+    color: red;
+    text-decoration: underline;
+  
+ 
+}
+.coupons-p{
+  flex-direction: row;
+  display: flex;
+}
+.Coupons .coupons-cont{
+   
+    /* width: 50%; */
+
+    flex-direction: row;
+  display: flex;
+   
+
+   
+}
+@media (max-width: 1430px) {
+  .hide-item,.price{
+    display: none;
+  }
+  nav .nav-content a {
+font-size: 20px;
+    
+ 
+  
+  }
+  .nav_header{
+    margin-right: 0.7rem;
+}
+}
+
+@media (max-width: 1100px) {
+
+  .nav-popup .navpop-con{
+
+    flex-direction: column;
+    width: 100%;
+  
+}
+.Coupons p{
+
+  margin-right: 0.6rem;
+
+
+}
+.navpop-content{
+  
+  width: 100%;
+  justify-content: space-between;
+
+  height:auto;
+  padding-bottom:0px;
+
+
+}
+
+}
+@media (max-width: 1000px) {
+  body {
+    width: 97%;
+    margin: auto;
+  }
+  nav {
+ 
+    height: 4.5rem;
+
+  }
+  nav .logo {
+    width: 38%;
+
+  }
+  nav .logo .logo-content p {
+ 
+    font-size: 17px;
+    word-spacing: 1px;
+ 
+    font-weight: 700;
+    margin-left: 10px;
+}
+.nav-popup {
+
+display: flex;
+flex-direction: column;
+padding-left: 0px;
+padding-bottom: 1.5rem;
+ 
+ 
+}
+
+nav .nav-content a {
+
+  margin-right: 0.8rem;
+  font-size: 17px;
+  
+ 
+
+}
+.space {
+  background: #fff;
+  height: 42px;
+  width: 100%;
+}
+
+
+}
+@media (max-width:740px) {
+  .hide-item1{
+    display: none;
+  }
+  nav .nav-content a {
+
+    margin-right: 0.8rem;
+    font-size: 17px;
+    
+   
+  
+  }
+  .Coupons h2{
+  
+  
+    font-size: 16px;
+ 
+}
+.nav_header h2{
+  font-size: 16px; 
+}
+  .nav_header{
+    margin-right: 0.5rem;
+}
+  nav .logo .logo-content p {
+ 
+    font-size: 15px;
+    word-spacing: 0.5px;
+ 
+    font-weight: 700;
+    margin-left: 5px;
+}
+.coupons-p{
+  flex-direction: column;
+  display: flex;
+  margin-top: -1.6rem;
+}
+.Coupons p{
+ 
+  font-size: 12px;
+ 
+
+  margin-right: 0.5rem;
+
+
+}
+.nav_header p{
+
+
+  font-size: 12px;
+ 
+  /* line-height: 0.5rem; */
+}
+
+}
+
+@media (max-width:430px) {
+  nav .logo {
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 28%;
+  }
+  nav .logo .logo-content p {
+ 
+
+    padding-top: 1rem;
+}
+  .Coupons h2{
+  
+  
+    font-size: 14px;
+ 
+}
+.nav_header{
+  margin-right: 0.4rem;
+}
+}
+@media (max-width:350px) {
+  .nav_header p{
+
+
+    font-size: 10px;
+   
+    /* line-height: 0.5rem; */
+  }
+  .nav_header{
+    margin-right: 0.3rem;
+}
+
+  .Coupons p{
+ 
+    font-size: 10px;
+   
+  
+    margin-right: 0.3rem;
+  
+  
+  }
+  nav .nav-content a {
+margin-top: -1rem;
+  
+  }
+ 
+}

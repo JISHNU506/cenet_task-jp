@@ -1,0 +1,84 @@
+
+.CardContainer {
+    width: 100%;
+    height: 481px;
+    padding-top: 2rem;
+    border-bottom: 2px solid #878787b5;
+} 
+
+
+
+.cards {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+
+}
+.CardContainerHead{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+   
+}
+.cards::-webkit-scrollbar {
+    display: none;
+  }
+
+.cardStyle {
+    min-width: 300px;
+    height: 350px;
+    cursor: pointer;
+    float: left;
+    margin: 15px;
+    border-bottom: 3px solid red;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+#imageM2 {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.CardText{
+    text-align: center;
+    font-size: 18px;
+    margin: 1rem;
+    margin-top: 2rem;
+  
+    
+}
+.cardStyle:hover .CardText .cont{
+    color: red;
+}
+.CardText .cont{
+    font-family: "Domine";
+ font-weight: 600;
+    min-height: 7rem;
+}
+
+.CardContainerHead .cont{
+    font-family: "Domine";
+ font-weight: 600;
+
+}
+.CardContainerHead .cont span{
+ font-size: 14px;
+ margin-left: 1rem;
+ text-decoration: underline;
+ color: red;
+ font-weight: 400;
+
+}
+.CardText2{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+
+

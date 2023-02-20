@@ -1,0 +1,145 @@
+.TechContainer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 2px solid #87878754;
+}
+.HeadContent{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    font-family: "Domine";
+    margin-left: 1px;
+    margin-top: 12px;
+    margin-bottom: 1rem;
+}
+.HeadContent span{
+    margin-left: 1rem;
+    font-size: 12px;
+    text-decoration: underline;
+    color: red;
+   
+}
+.TechContainer-left{
+    width: 52%;
+    min-height: 430px;
+
+    height: auto;
+    float: left;
+
+}
+.TechContainer-right{
+    width: 45%;
+    min-height:385px;
+    height: auto;
+    margin-top: 1rem;
+    cursor: pointer;
+    float: left;
+
+}
+.CardTextcon{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: start;
+    margin: 0.4rem;
+  
+   
+
+}
+.CardTextcon .card-hed{
+    font-family: "Domine";
+    font-size: 18px;
+    letter-spacing: 1px;
+    min-height: 4rem;
+    font-weight: 600;
+}
+.CardTextcon h5{
+    font-size: 18px;
+    margin-top: 1rem;
+    min-height: 6rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "roboto";
+}
+.CardText-itm{
+    letter-spacing: 1px;
+    color: #000000cf;
+    text-align: start;
+    /* margin-top: 1rem; */
+    font-size: 14px;
+}
+.TechContainer-right .card-hed{
+    font-family: "Domine";
+    font-size: 18px;
+    letter-spacing: 1px;
+    min-height: 4rem;
+    font-weight: 600;
+}
+.TechContainer-right h5{
+    font-size: 18px;
+    margin-top: 0rem;
+    min-height: 4rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "roboto";   
+}
+.card-hed:hover {
+    color: red;
+}
+
+
+.cardStyle1 {
+    width: 45%;
+    min-height: 422px;
+    float: left;
+    cursor: pointer;
+    margin-right: 15px;
+
+
+}
+.cardStyle1:hover .CardTextcon .card-hed{
+    color: red;
+}
+.cardStyle1 #prodt-img{
+  
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+  
+}
+@media screen and (max-width: 1300px) {
+    .TechContainer-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .cardStyle1 {
+        width: 100%;
+    }  
+    .TechContainer-right{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .TechContainer-left{
+        display: block;
+    }
+    .cardStyle1{
+        height: auto;
+    }
+    .cardStyle1 {
+       
+        margin-right:5px;
+     
+    }
+    .TechContainer-right h5{
+        font-size: 17px;
+        margin-top: 0rem;
+        min-height: 3rem;
+        letter-spacing: normal;
+        font-weight: 400;
+        font-family: "roboto";  
+    }
+    
+}

@@ -1,0 +1,296 @@
+.Wel-header_Wrapper {
+    width: 100%;
+  margin: auto;
+    height: auto;
+    text-align: justify;
+ 
+}
+
+.Wel-header_Wrapper .header_main {
+    color:#000;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: "Domine";
+   
+
+    margin-top: 2rem;
+}
+/* .Wel-header_Wrapper .header_main p{
+    word-spacing: 1.5px;
+} */
+
+.Wel-header_Wrapper .header_sub {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-family: "roboto";
+}
+
+.Tech-opt{
+    color: black;
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    text-align: left;
+    border-bottom: 2px solid #8b888883;
+
+}
+.Tech-opt::-webkit-scrollbar{
+    display: none;
+}
+
+.Tech-opt a {
+    margin-right: 1rem;
+    height: 2.5rem;
+    width: auto;
+    
+}
+.Tech-opt a:hover {
+    color:red;
+    border-bottom: 4px solid red;
+}
+
+
+
+
+
+
+
+
+
+.NewsOneContainer {
+    width: 100%;
+    min-height: 90vh;
+    padding-top: 0.4rem;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 2px solid #878787b5;
+}
+
+.NewsOneLeft {
+    width: 38%;
+    height: auto;
+    margin-right: 1rem;
+    float: left;
+    cursor: pointer;
+}
+
+.NewsContent {
+    width: 55%;
+    height: auto;
+    margin: 1rem;
+    float: left;
+  
+}
+.news_header{
+    font-size: 20px;
+    font-family: "Domine";
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.NewsOneLeft:hover .news_header1{
+    color: red;
+}
+/* .news_header:hover{
+   color: red;
+
+} */
+.RightAlign:hover .news_header{
+    color: red;
+}
+
+
+.news_header1{
+    font-size: 26px ;
+    font-family: "Domine";
+    word-spacing: 15px;
+
+}
+/* .news_header1:hover{
+  color:red;
+
+} */
+.news_hdr{
+    font-size: 21px;
+    margin-top: 1rem;
+    font-family: "roboto";
+}
+.maker{
+    font-size: 14px;
+    color: #000000b3;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+.maker:hover span{
+    color: red;
+}
+
+
+#ImgMain {
+    width: 100%;
+    height: 41vh;
+    background-size: cover;
+    object-fit: cover;
+    margin-right: 2%;
+}
+
+.LetfTextContainer {
+    width: 98%;
+    margin-top: 2%;
+    /* min-height: 40vh; */
+    height: auto;
+}
+.RightAlign{
+    width: 100%;
+    /* min-height: 40vh; */
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    /* overflow: hidden; */
+    justify-content: space-between;
+}
+
+.oneright-left {
+    width: 43%;
+    /* min-height: 40vh; */
+    float: left;
+    height: auto;
+    margin-right: 5rem;
+
+}
+
+.oneright-right {
+    width: 50%;
+    min-height: 40vh;
+    height: auto;
+    float: left;
+
+}
+
+
+    #ImgMain2 {
+        width: 66%;
+        height: 30vh;
+        object-fit: cover;
+     
+    }
+
+
+#ImgMain3 {
+    width: 94%;
+    height: 30vh;
+    object-fit: cover;
+    margin: 2%;
+  
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .header_main p{
+        font-size: 30px;
+    }
+    .header_sub{
+        font-size: 15px;
+    }
+    .Tech-opt {
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .Wel-header_Wrapper {
+        width: 90%;
+      margin: auto;
+        height: auto;
+        text-align: justify;
+    }
+    @media screen and (max-width: 1000px) {
+        .Wel-header_Wrapper {
+            width: 97%;
+        
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .NewsOneLeft {
+        width: 100%;
+    }
+
+    .NewsContent {
+            
+            width: 100%;
+        
+    }
+    .LetfTextContainer {
+        height: auto;
+    }
+    .oneright-right {
+        width: 50%;
+        height: auto;
+      
+    
+    }
+    .oneright-left {
+        width: 60%;
+    }
+    #ImgMain2 {
+       height: 200px;
+       width: 200px;
+   
+
+      
+    }
+    .oneright-left {
+        width: 60%;
+        min-height: 40vh;
+        float: left;
+        margin-right: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    #ImgMain2 {
+        height: 100px;
+        width: 100px;
+        
+    
+ 
+       
+     }
+     .news_header1{
+        font-size: 22px ;
+        font-family: "Domine";
+        word-spacing: 7px;
+    
+    }
+     .oneright-right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .oneright-left {
+        width: 60%;
+        min-height: 40vh;
+        float: left;
+        margin-right: 1rem;
+    }
+}
+
+
+
+
+

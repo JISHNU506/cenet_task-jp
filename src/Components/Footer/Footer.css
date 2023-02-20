@@ -1,0 +1,78 @@
+.footer-cont p{
+  text-align: start !important;
+  color: #000 !important;
+  font-family: "roboto";
+  font-size: 13px;
+} 
+.footer-cont h6{
+  text-align: start !important;
+  color: #000 !important;
+  font-weight: 700;
+  font-size: 15px;
+  font-family:"Domine" ;
+}
+.footercontainer{
+
+width: 80%;
+
+margin: auto;
+
+}
+.div-sep{
+    border-top: 1px solid rgba(0, 0, 0, 0.453);
+    width: 100%;
+    margin: auto;
+}
+.conn-item a{
+    margin-right: 1rem;
+    cursor: pointer;
+    color: #141415 !important;
+}
+.conn-item a:hover{
+
+    color:red !important;
+}
+.conn-item a i{
+font-size: 21px;
+
+}
+.cnet-cont{
+    position: relative;
+ 
+    width: 45%;
+    height: auto;
+    margin-right: 2rem;
+}
+.cnet-cont span{
+font-size: 12px;
+color: #141415 !important;
+font-weight: 600;
+position: absolute;
+left: 0;
+}
+.cnet-cont span p{
+    font-size: 10px;
+    color: gray!important;
+    font-weight: 600;
+    text-align: start;
+    }
+
+
+@media (max-width: 1400px) {
+    .footercontainer{
+
+        width: 100%;
+     
+        
+        }
+}
+@media (max-width: 900px) {
+.conn-item a i{
+    font-size: 15px;
+    
+    }
+    .conn-item a{
+        margin-right: 0.4rem;
+      
+    }
+}
