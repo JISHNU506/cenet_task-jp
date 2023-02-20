@@ -62,12 +62,12 @@
 
 
 .NewsOneContainer {
-    width: 100%;
-    min-height: 90vh;
-    padding-top: 0.4rem;
-    height: auto;
-    overflow: hidden;
     border-bottom: 2px solid #878787b5;
+    height: auto;
+    min-height: 82vh;
+    overflow: hidden;
+    padding-top: 0.4rem;
+    width: 100%;
 }
 
 .NewsOneLeft {
@@ -165,10 +165,10 @@
 }
 
 .oneright-right {
-    width: 50%;
-    min-height: 40vh;
-    height: auto;
     float: left;
+    height: auto;
+    min-height: 31vh;
+    width: 50%;
 
 }
 
